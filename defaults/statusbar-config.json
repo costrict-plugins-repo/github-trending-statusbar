@@ -1,0 +1,31 @@
+{
+  "layout": "compact",
+  "widgets": {
+    "compact-warn": true,
+    "model": true,
+    "effort": true,
+    "context": true,
+    "cost": true,
+    "duration": true,
+    "git": true,
+    "session": false,
+    "lines": false,
+    "rate-5h": false,
+    "rate-7d": false,
+    "tokens": false,
+    "cache": false,
+    "context-size": false,
+    "latency": false,
+    "messages": false,
+    "total-tokens": false,
+    "tools-used": false,
+    "vim": false,
+    "mcp": false,
+    "worktree": false,
+    "agent": false,
+    "style": false,
+    "mascot": false
+  },
+  "contextBarWidth": 8,
+  "separator": " \u2502 "
+}

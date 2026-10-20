@@ -1,0 +1,10 @@
+{
+  "name": "claude-statusbar",
+  "description": "Custom status bar for Claude Code",
+  "owner": { "name": "Santiago Yeomans" },
+  "plugins": [{
+    "name": "statusbar",
+    "description": "Customizable status bar with 20+ widgets, 3 layouts, pixel art mascot, and interactive configuration",
+    "source": "./"
+  }]
+}

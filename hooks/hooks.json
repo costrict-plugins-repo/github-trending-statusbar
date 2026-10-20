@@ -1,0 +1,16 @@
+{
+  "description": "Claude Statusbar plugin hooks — checks setup status on session start.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/session-greeting.js\"",
+            "timeout": 5000
+          }
+        ]
+      }
+    ]
+  }
+}
